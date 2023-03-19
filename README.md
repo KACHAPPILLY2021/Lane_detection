@@ -65,7 +65,14 @@ Input | Histogram Equalization | Adaptive Histogram
 --- | :---: | --- | 
 ![input](https://user-images.githubusercontent.com/90359587/226152684-48412f88-fae2-4f0c-8dfb-9a4dcd133674.gif) | ![out1](https://user-images.githubusercontent.com/90359587/226152698-a55f37d4-4974-406d-8961-6ed2a73a7e9f.gif) | ![adapt](https://user-images.githubusercontent.com/90359587/226152712-b61bd842-6ed1-44fc-81e2-e7936aea68a2.gif)
 
-
+Input | 
+--- | 
+![input](https://user-images.githubusercontent.com/90359587/226152684-48412f88-fae2-4f0c-8dfb-9a4dcd133674.gif) |
+Histogram Equalization | 
+![out1](https://user-images.githubusercontent.com/90359587/226152698-a55f37d4-4974-406d-8961-6ed2a73a7e9f.gif) |
+Adaptive Histogram | 
+![adapt](https://user-images.githubusercontent.com/90359587/226152712-b61bd842-6ed1-44fc-81e2-e7936aea68a2.gif) |
+	
 </div>
 
 <div align="center">
