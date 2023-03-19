@@ -49,19 +49,24 @@
 
 
 
-Implemented Depth First Search algorithm using Object Oriented Programming in C++ and visualized its output using Micromouse simulator.
+This repository contains code to detect lanes on straight and curved roads using classical approach of computer vision to mimic ```Lane Departure Warning System``` in self-driving cars. Concepts of **homography**, **polynomial curve fitting**, **hough lines**, **warping,** and **unwarping** have been implemented to get the results. The program also predicts turn on curved roads by computing the radius of curvature.
+Two additional programs were implemented for Histogram Equalization and Adaptive Histogram Equalization, which would be discussed in great detail on Report.
 
-Summary of tasks achieved:
-* Implemented DFS using a representation of the maze(mouse has no prior knowledge of walls except the boundaries.)
-* Generated path from current position to goal using the representation of the maze.
-* Moved the mouse using API interface commands and updated the walls as detected.
-* The robot halted when the mouse hit a wall, and DFS was employed to recalculate the path using prior wall data.
-* The described steps were repeated until the goal position was achieved.
+The detailed problem statement can be found here. [Problem_Statement](https://github.com/KACHAPPILLY2021/Lane_detection/blob/main/problem_statement.pdf)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Demo
+
+<div align="center">
+
+Input | Histogram Equalization | Adaptive Histogram
+--- | :---: | --- | 
+![input](https://user-images.githubusercontent.com/90359587/226152684-48412f88-fae2-4f0c-8dfb-9a4dcd133674.gif) | ![out1](https://user-images.githubusercontent.com/90359587/226152698-a55f37d4-4974-406d-8961-6ed2a73a7e9f.gif) | ![adapt](https://user-images.githubusercontent.com/90359587/226152712-b61bd842-6ed1-44fc-81e2-e7936aea68a2.gif)
+
+
+</div>
 
 <div align="center">
 
@@ -72,6 +77,9 @@ Summary of tasks achieved:
 </div>
 
 ![p2-solution-2-online-video-cutte](https://user-images.githubusercontent.com/90359587/224575694-089634a3-34dc-4580-b4e6-639e54730c8c.gif)
+
+[![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/ALf60N8Jc4w)
+
 <div align="center">
 
 
@@ -81,6 +89,9 @@ Summary of tasks achieved:
 </div>
 
 https://user-images.githubusercontent.com/90359587/224575766-424a6eb2-0077-4ffa-bf47-9042d5dce52e.mp4
+
+[![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/swtyh6bpl-I%09)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -177,15 +188,6 @@ How to start simulator and use this DFS code in it.
   ./a.out
   ```
 6. Then Press **Build**, followed by **RUN** under the **Controls** Section
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTORS -->
-## Contributors
-
-Here are the
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
